@@ -1,0 +1,75 @@
+* {
+    background-color: rgb(65, 63, 63);
+}
+
+@font-face {
+    font-family: square;
+    src: local(square);
+}
+
+#countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#countdown div {
+  font-size: 25px;
+  margin: 0 10px;
+}
+h1 {
+    text-align: center;
+    color: rgb(243, 237, 225);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    
+}
+
+#days, #hours, #minutes, #seconds {
+    background-color: rgb(19, 20, 20);
+    color: aliceblue;
+    font-family: 'Abril Fatface', monospace;
+    width: 90px;
+    text-align: center; 
+    text-shadow: 2px 2px 2px rgb(100, 98, 98);
+}
+
+.jee {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(239, 243, 247);
+    font-weight: bold;
+    margin-top: -3.5%;
+}
+
+.motivation {
+    text-align: center;
+}
+
+#motiv {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(239, 243, 247);
+    font-weight: bold;
+    display: none;
+}
+
+
+#mood {
+    background-color: #ddd;
+    color: #111;
+    border: none;
+    margin-top: 10px;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    transition: 1s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+#mood:hover {
+    background-color: #9e9b9b;
+}
